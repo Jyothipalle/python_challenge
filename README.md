@@ -1,5 +1,67 @@
 
+Week3 - Python-Homework: 
+Author - Jyothi Palle
 
+# PyBank Solution Details:
+
+## Objective:  
+   Task is to create a Python script that analyzes the records to calculate each of the following:
+     * The total number of months included in the dataset
+     * The net total amount of "Profit/Losses" over the entire period
+     * The changes in "Profit/Losses" over the entire period, and then the average of those changes
+     * The greatest increase in profits (date and amount) over the entire period
+     * The greatest decrease in profits (date and amount) over the entire period
+
+##Script Details:
+  Set Path file to read budget data from resources folder
+  Define working variable lists required like stockmonth, Pnl and pnlchange as 
+  Open and read CSV file, after that read hearder
+  Define the required variables 
+  Loop through the rows to read the data from csv and write variable lists created earlier
+  Check if the cnt eq 1 then retain pnvalue else pnldiff subtracting previous value from the current value 
+  Calculate and define Total Months, Average P&L, Greatest Increase and Decrease P&L change values and corresponding months
+  Set path for txtfile in analysis folder to write the output
+  Open the Text file 
+  Write the output as expected into one variable
+  Print the output to terminal and write the same output to text file
+
+# Pypoll  Solution Details:
+
+## Objective:
+  Task is to create a Python script that analyzes the votes and calculates each of the following:
+  * The total number of votes cast
+  * A complete list of candidates who received votes
+  * The percentage of votes each candidate won
+  * The total number of votes each candidate won
+  * The winner of the election based on popular vote.
+
+## Script Details:
+  Set Path file to read elections data from resources folder
+  Define candidate options list and candidate votes dictionary
+  Initialize total counts to Zero
+  Open the csv file and start reading the data
+  After reading header start loop to read each row from the csv file
+  Increment total votes for each read from csvfile and name from csvfile and candidate name list
+  Check if the candidate not exit in candidate options, if true write to candidate name to candidate options and start the counting votes for that candidate
+  Increment votes for that candidate 
+  Define winner name and count variables
+  Assign the output text file location to variable
+  Open the file with write mode
+  Create output header and total votes as per the requirement 
+  Write the output to terminal and text file
+  Loop candidates votes dictionary to get votes and calculate percentage of votes polled
+  Print the results to terminal and text file for each candidate as per requirement
+  Find the winner who received higher votes and print the output to terminal and text file
+
+
+
+
+
+
+
+
+
+Original readme with requirements
 
 # Unit 3 Homework: Python
 
