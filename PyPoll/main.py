@@ -46,7 +46,7 @@ winner_name=""
 winner_count=0
 
 #assign variable to the output text file path
-txtfile_path=os.path.join("pypoll_output.txt")
+txtfile_path=os.path.join("Analysis","pypoll_output.txt")
 
 #Open the text file and print the results
 with open(txtfile_path,"w") as txtfile:

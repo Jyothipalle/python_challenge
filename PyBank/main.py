@@ -1,11 +1,10 @@
-
-
 import os
 import csv
 
 # set path for file
 
 csvfile_path=os.path.join("Resources","budget_data.csv")
+
 
 #define stockmonth and pnlchnage
 stockmonth=[]
@@ -43,7 +42,7 @@ pnlchange_list1=zip(pnlchange,stockmonth)
 min_value, min_month = min(list(pnlchange_list1))
  
  #set path for txtfile
-txtfile_path=os.path.join("pybank_output.txt")
+txtfile_path=os.path.join("Analysis","pybank_output.txt")
 
 #open text file
 with open(txtfile_path,"w") as txtfile:
